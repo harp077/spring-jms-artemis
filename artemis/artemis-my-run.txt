@@ -1,0 +1,29 @@
+
+./artemis help
+
+./artemis help create
+
+===================================
+
+./artemis create --user romka --password romka etc       |->
+
+Creating ActiveMQ Artemis instance at: /j/webapp/apache-artemis-2.6.4/bin/etc
+
+--allow-anonymous | --require-login: is a mandatory property!
+Allow anonymous access?, valid values are Y,N,True,False
+Y
+
+Auto tuning journal ...
+done! Your system can make 41,67 writes per millisecond, your journal-buffer-timeout will be 24000
+
+You can now start the broker by executing:  
+
+   "/j/webapp/apache-artemis-2.6.4/bin/etc/bin/artemis" run
+
+Or you can run the broker in the background using:
+
+   "/j/webapp/apache-artemis-2.6.4/bin/etc/bin/artemis-service" start
+
+==========================================================
+
+	ADDRESS NAME === QUEUE NAME ( MUST BEE EQUALS  !!!!!!!!!!! )
