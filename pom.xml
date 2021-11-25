@@ -54,7 +54,7 @@
     
     <build>
         
-        <finalName>spring-jms-activemq</finalName>
+        <finalName>spring-jms-artemis</finalName>
 
         <plugins>
             
